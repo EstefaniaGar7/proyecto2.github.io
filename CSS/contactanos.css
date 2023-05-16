@@ -1,0 +1,124 @@
+main{
+    margin: 0;
+}
+section#formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+section#formulario>div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+section#formulario>div#uno{
+    margin-top: 2rem;
+}
+section#formulario>div>input{
+    height: 2rem;
+    width: 20rem;
+    text-align: center;
+}
+section#formulario>div>input{
+    width: 20rem;
+    text-align: center;
+}
+section#formulario>div>button{
+    background-color: white;
+    color: black;
+    margin: 3rem;
+    height: 3rem;
+    width: 10rem;
+    text-align: center;
+}
+section#formulario>div>button:hover{
+    background-color: grey;
+    color: white;
+}
+section#formulario>div>input#text{
+    height: 5rem;
+    width: 20rem;
+    text-align: center;
+}
+section#formulario>div>p{
+    color: white;
+    width: 10rem;
+    text-align: center;
+}
+section#mapa{
+    object-fit: cover;
+}
+section#mapa>div{
+    display: flex;
+    object-fit: cover;
+}
+section#mapa>div>img{
+    width: 100%;
+    object-fit: contain;
+}
+section#fotos{
+    display: flex;
+    flex-direction: row;
+    height: 10rem;
+    width: 100%;
+    overflow-y: hidden;
+}
+section#mapa>div>img{
+    object-fit: cover;
+}
+section#fotos{
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    object-fit: cover;
+}
+section#fotos>img{
+    height: 5%;
+    object-fit: contain;
+}
+section#fotos>div#mano{
+    height: 10rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 25rem;
+    
+    animation-delay: 2s;
+    animation: mano;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+section#fotos>div#mano>img{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 5rem;
+
+}
+    
+    @keyframes mano {
+        0%{
+            left: 15rem;
+        }
+        25%{
+            left: 18rem;
+        }
+        50%{
+            left: 15rem;
+        }
+        75%{
+            left: 18rem;
+            opacity: 0;
+        }
+        100%{
+            left: 15rem;
+            opacity: 0;
+        }
+    }
+  

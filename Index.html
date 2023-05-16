@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO FANNY</title>
+
+    <link rel="stylesheet" href="CSS/cabecera.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+
+</head>
+<body id="body" class="modoNoche">
+    <header>
+        <section id="logo" class="modo-noche">
+            <a href="Index.html">
+                <img src="IMAGENES/LOGO.png" alt="">
+            </a>
+        </section>
+        <section id="menu" class="modo-noche">
+            <div id="aDivInicio" class="modo-noche">
+                <a id="aInicio" href="Index.html" class="modo-noche"><p class="modo-noche">INICIO</p></a>
+            </div>
+            <div id="aDivProductos" class="modo-noche">
+                <a id="aProductos" href="Index.html" class="modo-noche"><p class="modo-noche">WEB</p></a>
+            </div>
+            <div id="aDivContactanos" class="modo-noche">
+                <a id="aContactanos" href="contactanos.html" class="modo-noche"><p class="modo-noche">CONTACTANOS</p></a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="bajoLogo">
+        </section>
+        <section id="cabecera">
+            <img src="IMAGENES/CABECERA.jpeg" alt="">
+        </section>
+        <section id="eleccion" class="modo-noche" >
+            <button id="modoNocheBtn" class="modo-noche" onclick="cambiarModoNoche()">
+                <p id="modoNocheBtnP" class="modo-noche">MODO NOCHE</p>
+                <img src="IMAGENES/noche.png" alt="">
+            </button>
+        </section>
+        <section id="cabeceraMedio">
+            <img src="IMAGENES/foto-medio.jpeg" alt="">
+        </section>
+        
+        <section id="boton" class="modo-noche" >
+            <button id="myButton" class="modo-noche" >VER CATALOGO</button>
+        </section>
+        
+        <!-- cambiar el display block por none al acabar el css -->
+        <section id="myElement" style="display: none;">
+            <div>
+                <p>CAMISETAS</p>
+                <img src="IMAGENES/CAMISETAS.jpeg" alt="">
+                <button id="myButton2">VER MÁS</button>
+            </div>
+            <!-- cambiar el display block por none al acabar el css -->
+            <div id="myElement2" style="display: none;">
+                <div>
+                    <p>Modelo #0001</p>
+                    <img src="IMAGENES/camiseta-1.jpeg" alt="">
+                    <p>10€</p>
+                </div>
+                <div>
+                    <p>Modelo #0002</p>
+                    <img src="IMAGENES/camiseta-2.jpeg" alt="">
+                    <p>10€</p>
+                </div>
+                <div>
+                    <p>Modelo #0003</p>
+                    <img src="IMAGENES/camiseta-3.jpeg" alt="">
+                    <p>10€</p>
+                </div>
+                <div>
+                    <p>Modelo #0004</p>
+                    <img src="IMAGENES/camiseta-4.jpeg" alt="">
+                    <p>10€</p>
+                </div>
+                <div>
+                    <p>Modelo #0005</p>
+                    <img src="IMAGENES/camiseta-5.jpeg" alt="">
+                    <p>10€</p>
+                </div>
+                <div>
+                    <p>Modelo #0006</p>
+                    <img src="IMAGENES/camiseta-6.jpeg" alt="">
+                    <p>10€</p>
+                </div>
+            </div>
+            <div>
+                <p>CALCETINES</p>
+                <img src="IMAGENES/CALCETINES.jpeg" alt="">
+                <button id="myButton3">VER MÁS</button>
+            </div>
+            <div id="myElement3" style="display: none;">
+                <div>
+                    <p>Modelo #0121</p>
+                    <img src="IMAGENES/calcetines-1.jpeg" alt="">
+                    <p>6€</p>
+                </div>
+                <div>
+                    <p>Modelo #0122</p>
+                    <img src="IMAGENES/calcetines-2.jpeg" alt="">
+                    <p>6€</p>
+                </div>
+                <div>
+                    <p>Modelo #0123</p>
+                    <img src="IMAGENES/calcetines-3.jpeg" alt="">
+                    <p>6€</p>
+                </div>
+                <div>
+                    <p>Modelo #0124</p>
+                    <img src="IMAGENES/calcetines-4.jpeg" alt="">
+                    <p>6€</p>
+                </div>
+                <div>
+                    <p>Modelo #0125</p>
+                    <img src="IMAGENES/calcetines-5.jpeg" alt="">
+                    <p>6€</p>
+                </div>
+                <div>
+                    <p>Modelo #0126</p>
+                    <img src="IMAGENES/calcetines-6.jpeg" alt="">
+                    <p>6€</p>
+                </div>
+            </div>
+            <div>
+                <p>BAÑADORES</p>
+                <img src="IMAGENES/BAÑADORES.jpeg" alt="">
+                <button id="myButton4">VER MÁS</button>
+            </div>
+            <div id="myElement4" style="display: none;">
+                <div>
+                    <p>Modelo #2011</p>
+                    <img src="IMAGENES/bañador-1.jpeg" alt="">
+                    <p>15€</p>
+                </div>
+                <div>
+                    <p>Modelo #2012</p>
+                    <img src="IMAGENES/bañador-2.jpeg" alt="">
+                    <p>15€</p>
+                </div>
+                <div>
+                    <p>Modelo #2013</p>
+                    <img src="IMAGENES/bañador-3.jpeg" alt="">
+                    <p>15€</p>
+                </div>
+                <div>
+                    <p>Modelo #2014</p>
+                    <img src="IMAGENES/bañador-4.jpeg" alt="">
+                    <p>15€</p>
+                </div>
+                <div>
+                    <p>Modelo #2015</p>
+                    <img src="IMAGENES/bañador-5.jpeg" alt="">
+                    <p>15€</p>
+                </div>
+                <div>
+                    <p>Modelo #2016</p>
+                    <img src="IMAGENES/bañador-6.jpeg" alt="">
+                    <p>15€</p>
+                </div>
+            </div>
+        </section>
+        <section id="cabeceraFinal">
+            <img src="IMAGENES/foto-final-1.jpeg" alt="">
+        </section>
+
+    </main>
+    <footer>
+        <section id="segundaFooter" class="modo-noche">
+            <h1 id="segundaFooteH1" class="modo-noche">PAMPLING</h1>
+            <div id="segundaFooteDiv" class="modo-noche">
+                <a href="Index.html">SABER MÁS</a>
+            </div>
+    
+        </section>
+        <section id="footer" class="modoNoche">
+            <div>
+                <a id="aFooterFacebook"class="modoNoche" href="https://es-es.facebook.com/" target="_blank">
+                    <img  id="aImgFacebook"class="modoNoche" src="IMAGENES/logos/facebook.png" alt="">
+                </a>
+            </div>
+            <div>
+                <a id="aFooterInsta"class="modoNoche" href="https://www.instagram.com/" target="_blank">
+                    <img id="aImgInsta" class="modoNoche" src="IMAGENES/logos/insta.svg" alt="">
+                </a>
+            </div>
+            <div>
+                <a id="aFooterTwitter"class="modoNoche" href="https://twitter.com/" target="_blank">
+                    <img id="aImgTwitter" class="modoNoche" src="IMAGENES/logos/twitter.png" alt="">
+                </a>
+            </div>
+            <div>
+                <a id="aFooterYoutube" class="modoNoche" href="https://www.youtube.com/" target="_blank">
+                    <img id="aImgYoutube" class="modoNoche" src="IMAGENES/logos/youtube.png" alt="">
+                </a>
+            </div>
+            <div>
+                <a id="aFooterPinterest" class="modoNoche" href="https://www.pinterest.es/" target="_blank">
+                    <img id="aImgPinterest" class="modoNoche" src="IMAGENES/logos/pinterest.png" alt="">
+                </a>
+            </div>
+        </section>
+    </footer>
+    
+</body>
+
+    <script src="JAVASCRIPT/modoNoche.js"></script>
+</html>

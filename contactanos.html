@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Estefania</title>
+
+    <link rel="icon" href="IMAGENES/LOGO.png" type=".png" sizes="24px">
+
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/Cabecera.css">
+    <link rel="stylesheet" href="CSS/contactanos.css">
+</head>
+<body>
+    <header>
+        <section id="logo">
+                <a href="Index.html">
+                    <img src="IMAGENES/LOGO.png" alt="">
+                </a>
+        </section>
+        <section id="menu">
+            <div>
+                <a href="Index.html"><p>INICIO</p></a>
+            </div>
+            <div>
+                <a href="Index.html"><p>WEB</p></a>
+            </div>
+            <div>
+                <a href="contactanos.html"><p>CONTACTANOS</p></a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="section-cabecera">
+        </section>
+        <section id="fotos">
+            <div id="mano">
+                <img src="IMAGENES/mano.png" alt="">
+            </div>
+            <div>
+                <img src="IMAGENES/CABECERA.jpeg" alt="">
+            </div>
+            <div>
+                <img src="IMAGENES/foto-medio.jpeg" alt="">
+            </div>
+            
+
+        </section>
+        <section id="formulario">
+            <div id="uno">
+                <p>NOMBRE</p>
+                <input id="nombre" type="name" placeholder="Introduce tu nombre">
+            </div>
+            <div>
+                <p>PRIMER APELLIDO</p>
+                <input id="apellido" type="name" placeholder="Introduce tu nombre">
+            </div>
+            <div>
+                <p>SEGUNDO APELLIDO</p>
+                <input id="apellido2" type="name" placeholder="Introduce tu nombre">
+            </div>
+            <div>
+                <p>NUMERO</p>
+                <input id="telefono" type="tel" placeholder="Introduce tu numero">
+            </div>
+            <div>
+                <p>DIA</p>
+                <input id="dia" type="date" placeholder="Introduce tu numero">
+            </div>
+            <div>
+                <p>EMAIL</p>
+                <input id="email" type="emailr" placeholder="Introduce tu email">
+            </div>
+            <div>
+                <p>mensaje</p>
+                <input id="texto" type="text" placeholder="Introduce tu email" id="text">
+            </div>
+            <div>
+
+            <button type="button" onclick="validarCampo()">Verificar</button>
+                  
+            </div>
+        </section>
+        <section id="mapa">
+            <div>
+                <img src="IMAGENES/mapa.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id="segundaFooter" class="modo-noche">
+            <h1 id="segundaFooteH1" class="modo-noche">PAMPLING</h1>
+            <div id="segundaFooteDiv" class="modo-noche">
+                <a href="Index.html">SABER MÁS</a>
+            </div>
+    
+        </section>
+        <section id="footer" class="modoNoche">
+            <div>
+                <a id="aFooterFacebook"class="modoNoche" href="https://es-es.facebook.com/" target="_blank">
+                    <img  id="aImgFacebook"class="modoNoche" src="IMAGENES/logos/facebook.png" alt="">
+                </a>
+            </div>
+            <div>
+                <a id="aFooterInsta"class="modoNoche" href="https://www.instagram.com/" target="_blank">
+                    <img id="aImgInsta" class="modoNoche" src="IMAGENES/logos/insta.svg" alt="">
+                </a>
+            </div>
+            <div>
+                <a id="aFooterTwitter"class="modoNoche" href="https://twitter.com/" target="_blank">
+                    <img id="aImgTwitter" class="modoNoche" src="IMAGENES/logos/twitter.png" alt="">
+                </a>
+            </div>
+            <div>
+                <a id="aFooterYoutube" class="modoNoche" href="https://www.youtube.com/" target="_blank">
+                    <img id="aImgYoutube" class="modoNoche" src="IMAGENES/logos/youtube.png" alt="">
+                </a>
+            </div>
+            <div>
+                <a id="aFooterPinterest" class="modoNoche" href="https://www.pinterest.es/" target="_blank">
+                    <img id="aImgPinterest" class="modoNoche" src="IMAGENES/logos/pinterest.png" alt="">
+                </a>
+            </div>
+        </section>
+    </footer>
+</body>
+<script src="JAVASCRIPT/formulario.js"></script>
+<script src="JAVASCRIPT/modoNoche.js"></script>
+</html>

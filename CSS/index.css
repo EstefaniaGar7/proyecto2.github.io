@@ -1,0 +1,229 @@
+section#bajoLogo {
+    height: 5rem;
+}
+section#eleccion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 5%;
+    
+}
+section#eleccion{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#eleccion.modo-noche{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#eleccion>button#modoNocheBtn{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 3%;
+    width: 35%;
+    border-radius: 30px;
+}
+section#eleccion>button#modoNocheBtn.modo-noche{
+    background-color: black;
+}
+section#eleccion>button#modoNocheBtn:hover{
+    background-color: grey;
+}
+section#eleccion>button#modoNocheBtn>p {
+    color: black;
+}
+section#eleccion>button#modoNocheBtn>p.modo-noche {
+    color: white;
+}
+section#eleccion>button#modoNocheBtn>img {
+    height: 2rem;
+}
+
+section#cabecera{
+    width: 100%;
+    height: 50%;
+}
+section#cabecera>img{
+    height: 50%;
+    width: 100%;
+}
+section#cabeceraMedio{
+    width: 100%;
+    height: 50%;
+}
+section#cabeceraMedio>img{
+    height: 50%;
+    width: 100%;
+}
+section#cabeceraFinal{
+    width: 100%;
+    height: 50%;
+}
+section#cabeceraFinal>img{
+    height: 50%;
+    width: 100%;
+}
+
+
+
+#myElement {
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#myElement>div {
+    width: 100%;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myElement>div>img {
+    object-fit: cover;
+  }
+
+section#boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+section#boton{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+section#boton.modo-noche{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+section#boton>button{
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 3%;
+    width: 35%;
+    height: 3rem;
+    border-radius: 30px;
+}
+section#boton>button.modo-noche{
+    background-color: black;
+    color: white;
+}
+section#boton>button:hover{
+    background-color: grey;
+}
+section#botonon>button>p {
+    color: black;
+}
+section#boton>button>p.modo-noche {
+    color: white;
+}
+section#myElement>div>p{
+    color: black;
+}
+section#myElement>div>p{
+    color: black;
+}
+
+#myElement2{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#myElement2>div{
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#myElement2>div>img{
+    background-color: white;
+    width: 100%;
+}
+#myElement3{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#myElement3>div{
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#myElement3>div>img{
+    background-color: white;
+    width: 100%;
+}
+#myElement4{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#myElement4>div{
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#myElement4>div>img{
+    background-color: white;
+    width: 100%;
+}
+
+section#myElement>div>button{
+    text-decoration: none;
+    background-color: black;
+    margin-top: 1rem;
+    border-radius: 30px;
+    color: white;
+    width: 40%;
+    height: 3rem;
+}
+section#myElement>div>button:hover{
+    text-decoration: none;
+    background-color: white;
+    margin-top: 1rem;
+    border-radius: 30px;
+    color: black;
+    width: 40%;
+    height: 3rem;
+}
